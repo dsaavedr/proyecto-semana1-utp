@@ -3,3 +3,9 @@
     min-width: 50px;
     border: 1px solid black;
 }
+
+.member img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
