@@ -1,0 +1,30 @@
+[
+    {
+        "​codigo​": ​1​,
+        "​nombre​": ​"Camilo González"​,
+        "​descripcion​": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae iste, debitis dolor incidunt aliquid perspiciatis labore! Ex, repudiandae! Velit non voluptatum quas necessitatibus praesentium totam illum illo consequatur. Repellat, assumenda.",
+        "​rol​": ​"Desarrollador backend"​,
+        "​image​": ​"https://via.placeholder.com/150"
+    },
+    {
+        "​codigo​": ​2,
+        "​nombre​": ​"Nicolás Cubillos"​,
+        "​descripcion​": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae iste, debitis dolor incidunt aliquid perspiciatis labore! Ex, repudiandae! Velit non voluptatum quas necessitatibus praesentium totam illum illo consequatur. Repellat, assumenda.",
+        "​rol​": ​"Desarrollador backend"​,
+        "​image​": ​"https://via.placeholder.com/150"
+    },
+    {
+        "​codigo​": ​3,
+        "​nombre​": ​"Sebastián Cely"​,
+        "​descripcion​": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae iste, debitis dolor incidunt aliquid perspiciatis labore! Ex, repudiandae! Velit non voluptatum quas necessitatibus praesentium totam illum illo consequatur. Repellat, assumenda.",
+        "​rol​": ​"Desarrollador backend"​,
+        "​image​": ​"https://via.placeholder.com/150"
+    },
+    {
+        "​codigo​": ​4​,
+        "​nombre​": ​"Daniel Saavedra"​,
+        "​descripcion​": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae iste, debitis dolor incidunt aliquid perspiciatis labore! Ex, repudiandae! Velit non voluptatum quas necessitatibus praesentium totam illum illo consequatur. Repellat, assumenda.",
+        "​rol​": ​"Desarrollador backend"​,
+        "​image​": ​"https://via.placeholder.com/150"
+    }
+]
