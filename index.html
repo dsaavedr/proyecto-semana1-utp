@@ -15,7 +15,7 @@
         <h2>Our team:</h2>
         <hr>
         <div class="row">
-            <member></member>
+            <member v-for="item in members" v-bind:member="item" v-bind:key="item.codigo"></member>
         </div>
     </div>
 
@@ -23,7 +23,8 @@
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-    <script src="script.js"></script>
+    <!-- <script type="text/javascript" src="team.json"></script> -->
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
