@@ -1,4 +1,4 @@
-// Crear aplicación de Vue
+let team;
 
 // Crear el componente de Vue para usar en la página.
 
@@ -27,7 +27,8 @@ const call = async query => {
 
 call("./team.json")
     .then(data => {
-        const team = new Vue({
+        // Crear aplicación de Vue
+        team = new Vue({
             el: "#team",
             data: {
                 members: data
