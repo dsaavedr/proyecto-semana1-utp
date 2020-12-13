@@ -8,10 +8,10 @@
     },
     {
         "codigo": 2,
-        "nombre": "Nicolás Cubillos",
-        "descripcion": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae iste, debitis dolor incidunt aliquid perspiciatis labore! Ex, repudiandae! Velit non voluptatum quas necessitatibus praesentium totam illum illo consequatur. Repellat, assumenda.",
+        "nombre": "Nicolás Cubillos Giraldo",
+        "descripcion": "Ingeniero Electrónico motivado por el aprendizaje de desarrollo de software, enfocado a solucionar y crear oportunidades para las empresas.",
         "rol": "Desarrollador backend",
-        "image": "https://via.placeholder.com/150"
+        "image": "./images/chip.png"
     },
     {
         "codigo": 3,
