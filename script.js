@@ -2,7 +2,7 @@ let team;
 
 // Crear el componente de Vue para usar en la página.
 
-Vue.component("member", {
+Vue.component("teamcard", {
     template: `
     <div class="col-md-6 col-lg-3">
         <div class="col-12 member">
