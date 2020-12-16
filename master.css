@@ -1,1 +1,17 @@
 /* Estilo para los servicios */
+.sliders-images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:none;
+}
+
+.slider-size{
+    width: 600;
+    height: 400;
+}
+
+.paragraph-sliders-text{
+    font-size: 20px;
+    font-style: italic;
+}
