@@ -5,6 +5,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Título</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="master.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Café Colombia</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#services">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team">Equipo</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+  <div id="services">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner slider-size">
+        <div class="carousel-item active">
+            
+          <img src="https://media.istockphoto.com/photos/coffee-beans-and-cream-picture-id862471728" width="86%" height="700" class="d-block sliders-images" alt="Calidad del Grano" >
+          <div class="carousel-caption d-none d-md-block">
+            <h3>La calidad del Café</h3>
+            <p class="paragraph-sliders-text">En esta sección descubriras la ciencia y dedicación en la preparación del grano.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://media.istockphoto.com/photos/traditional-coffee-cup-with-heartshaped-steam-on-rustic-wood-picture-id517518956" width="86%" height="700" class="d-block sliders-images" alt="Consumir Producto">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Consumir nuestros productos</h3>
+            <p class="paragraph-sliders-text">Los diferentes aromas y texturas están presentes en nuestra marca, así podrás conocer y elegir tu preferencia.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://st2.depositphotos.com/6672578/9897/i/950/depositphotos_98977056-stock-photo-coffee-shop-with-customers-sitting.jpg" width="86%" height="700" class="d-block sliders-images" alt="Franquicia de Tiendas">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Nuestra Franquicia</h3>
+            <p class="paragraph-sliders-text">Ser la marca más reconocida a nivel mundial es un trabajo de equipo, aquí podrás conocernos.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+<footer style="text-align: center; background-color: #3E4551; position: adsolute; bottom: 0; width: 100%; color: white;">
+  <div class="container text-center text-md-left">
+      <div class="row">
+          <div class="col-md-5 mx-auto">
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Café de Colombia</h5>
+              <p>Proyecto creado con la intención de promover el consumo de café colombiano, dando a conocer diferentes ofertas nacionales, cultivadas en todos las regiones del país y ofreciendo una calidad y sabor únicos.</p>
+              <a href="https://github.com/dsaavedr/semana-1-45.git" target="_blank">GitHub del Pryecto</a>
+          </div>
+
+          <hr class="clearfix w-100 d-md-none">
+          <div class="col-md-6 mx-auto">
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contacto:</h5>
+              <ul class="list-unstyled" style="text-align: center;">
+                  <li>• Camilo González | Desarrollador Backend <br> Correo: cgonzalez@colcafe.com.co</li>
+                  <li>• Nicolás Cubillos | Desarrollador Backend<br> Correo: ncubillos@colcafe.com.co</li>
+                  <li>• Daniel Saavedra | Desarrollador Backend<br> Correo: dsaavedra@colcafe.com.co</li>
+                  <li>• Sebastian Cely | Desarrollador Backend<br> Correo: scely@colcafe.com.co</li>
+              </ul>
+          </div>
+      </div>
+  </div!>
+
+  <div class="footer-copyright text-center py-3" style="background-color: #323741;">
+      &copy; 2020 Copyright
+  </div>
+</footer>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="master.css">
